@@ -7,6 +7,7 @@
     - [Prerequisites:](#prerequisites)
     - [Installation](#installation)
     - [|Running the Application](#running-the-application)
+  - [Data Visualization](#data-visualization)
 
 ## Overview
 This project implements a Semantic Search Engine that goes beyond traditional keyword matching by understanding the meaning of search queries using Natural Language Processing (NLP). It leverages advanced machine learning models to encode text into vector embeddings, enabling more accurate and relevant search results based on semantic similarity. The search engine is built using Elasticsearch and a Transformer-based model like Sentence-BERT.
@@ -30,8 +31,9 @@ semantic_search_engine/
 │   ├── data_index.py    
 │   └── main.py  
 └── utils  
-    └── preprocess.py   
+│   └── preprocess.py   
 ## Getting started:
 ### Prerequisites:
 ### Installation
 ### |Running the Application
+## Data Visualization
