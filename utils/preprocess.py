@@ -107,10 +107,10 @@ def perform_eda(file_path):
     """Perform EDA on the product data."""
     df = load_data(file_path)
     
-    # Overview
+    print("====================data overview===========================")
     data_overview(df)
     
-    # Summary statistics
+    print("===================summary statistics=======================")
     numeric_columns = ['Price (INR)', 'NumImages']
     summary_statistics(df, numeric_columns)
     
@@ -134,5 +134,4 @@ def perform_eda(file_path):
     # Category count for Gender
     category_count_plot(df_cleaned, 'Gender')
 
-# Example usage
-perform_eda('Data/myntra_products_catalog.csv')
+
