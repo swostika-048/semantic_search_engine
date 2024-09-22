@@ -34,6 +34,37 @@ semantic_search_engine/
 │   └── preprocess.py   
 ## Getting started:
 ### Prerequisites:
+1. Python 3.9+
+2. Elasticsearch (Version 8.x recommended)
+3. Virtual Environment (Optional, but recommended)
 ### Installation
+1. Clone the repository:
+    ```
+    git clone https://github.com/swostika-048/semantic_search_engine.git
+    cd semantic_search_engine
+
+    ```
+2. Create and activate a virtual environment (optional):
+    ``` 
+    python3 -m venv venv
+    On linux:source venv/bin/activate  
+    On Windows: venv\Scripts\activate
+
+    ```
+3. Install the dependencies:
+   ``` 
+   pip install -r requirements.txt
+    ```
+4. Set up environment variables in the .env file:
+   ``` 
+    ELASTICSEARCH_HOST=hostname      
+    ELASTICSEARCH_PORT=portnumber
+    ELASTICSEARCH_USER=username
+    ELASTICSEARCH_PASSWORD=password
+
+    # change hostname, portnumber,username,password with the elatiscsearch server hostname portnumber username and password
+    ```
 ### |Running the Application
+1. Start Elasticsearch: Ensure that Elasticsearch server is running.
+2. run app.py
 ## Data Visualization
