@@ -1,0 +1,28 @@
+.
+├── Data
+│   ├── data job posts.csv.zip
+│   └── myntra_products_catalog.csv
+├── index
+│   ├── indexmapping.py
+│   ├── __init__.py
+│   └── __pycache__
+│       ├── indexmapping.cpython-310.pyc
+│       └── __init__.cpython-310.pyc
+├── index.ipynb
+├── __init__.py
+├── project_structure.txt
+├── README.md
+├── src
+│   ├── data_index.py
+│   ├── __init__.py
+│   ├── main.py
+│   └── __pycache__
+│       └── data_visualize.cpython-310.pyc
+└── utils
+    ├── __init__.py
+    ├── preprocess.py
+    └── __pycache__
+        ├── __init__.cpython-310.pyc
+        └── preprocess.cpython-310.pyc
+
+7 directories, 18 files
