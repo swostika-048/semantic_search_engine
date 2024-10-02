@@ -61,7 +61,7 @@ semantic_search_engine/
    ``` 
    pip install -r requirements.txt
     ```
-4. Set up environment variables in the .env file:
+4. Setup environment variables in the .env file:
    ``` 
     ELASTICSEARCH_HOST=hostname      
     ELASTICSEARCH_PORT=portnumber
