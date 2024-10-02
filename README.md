@@ -7,7 +7,7 @@
     - [Prerequisites:](#prerequisites)
     - [Installation](#installation)
     - [|Running the Application](#running-the-application)
-  - [Data Visualization](#data-visualization)
+- [dropped all the null valued data](#dropped-all-the-null-valued-data)
   - [Screenshot of UI:](#screenshot-of-ui)
   - [References:](#references)
 
@@ -72,7 +72,16 @@ semantic_search_engine/
     ```
 ### |Running the Application
 1. Start Elasticsearch: Ensure that Elasticsearch server is running.
+      ```
+      sudo systemctl start elasticsearch
+      OR
+      python elastic_serarch/start_es.py
+   ```
 2. run app.py
+   ```
+   streamlit run app.py
+   ```
+
 ## Data Visualization
 - Checking null values:
   ```
