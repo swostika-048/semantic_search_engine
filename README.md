@@ -8,6 +8,7 @@
     - [Installation](#installation)
     - [|Running the Application](#running-the-application)
   - [Data Visualization](#data-visualization)
+  - [Screenshot of UI:](#screenshot-of-ui)
 
 ## Overview
 This project implements a Semantic Search Engine that goes beyond traditional keyword matching by understanding the meaning of search queries using Natural Language Processing (NLP). It leverages advanced machine learning models to encode text into vector embeddings, enabling more accurate and relevant search results based on semantic similarity. The search engine is built using Elasticsearch and a Transformer-based model like Sentence-BERT.
@@ -21,17 +22,21 @@ This project implements a Semantic Search Engine that goes beyond traditional ke
 ## Project Structure
 semantic_search_engine/  
 ├── Data  
-│   └── myntra_products_catalog.csv  
+    ├── cleaned_file.csv  
+    ├── product_data.csv  
+│   └── myntra_products_catalog.csv    
 ├── index  
 │   └── indexmapping.py  
 ├── index.ipynb  
+├── app.py  
 ├── project_structure.txt  
 ├── README.md  
 ├── src  
 │   ├── data_index.py    
 │   └── main.py  
 └── utils  
-│   └── preprocess.py   
+│    └── preprocess.py   
+
 ## Getting started:
 ### Prerequisites:
 1. Python 3.9+
@@ -68,3 +73,38 @@ semantic_search_engine/
 1. Start Elasticsearch: Ensure that Elasticsearch server is running.
 2. run app.py
 ## Data Visualization
+- Checking null values:
+  ```
+  Number of missing values per column:
+  link               0
+  product_title      0
+  price              1
+  actual_price     317
+  ratings            0
+  color              0
+  dtype: int64
+
+  # dropped all the null valued data
+  
+  ```
+
+- Summary Statistics"
+  ```
+  Summary statistics for numeric columns:
+              price actual_price
+  count          533          217
+  unique         340          119
+  top     Rs. 65,000   Rs. 85,000
+  freq            10            8
+  ```
+- Data visualization of price distribution chart:
+  ![photo](visualization/price_distribution.png)
+
+- Data visualization of Count of ratings:
+  ![photo](visualization/ratings_count_plot.png)
+
+- Word Frequency plot of first 20 words:
+- ![photo](visualization/word_frequency_plot.png)
+  
+## Screenshot of UI:
+- ![screenshort](visualization/ss.png)
