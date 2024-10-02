@@ -9,6 +9,7 @@
     - [|Running the Application](#running-the-application)
   - [Data Visualization](#data-visualization)
   - [Screenshot of UI:](#screenshot-of-ui)
+  - [References:](#references)
 
 ## Overview
 This project implements a Semantic Search Engine that goes beyond traditional keyword matching by understanding the meaning of search queries using Natural Language Processing (NLP). It leverages advanced machine learning models to encode text into vector embeddings, enabling more accurate and relevant search results based on semantic similarity. The search engine is built using Elasticsearch and a Transformer-based model like Sentence-BERT.
@@ -108,3 +109,10 @@ semantic_search_engine/
   
 ## Screenshot of UI:
 - ![screenshort](visualization/ss.png)
+
+
+
+## References:
+- [https://www.elastic.co/what-is/semantic-search](https://www.elastic.co/what-is/semantic-search)
+- [https://www.youtube.com/watch?v=KSwPR9eig7w&t=569s](https://www.youtube.com/watch?v=KSwPR9eig7w&t=569s)
+- [https://www.kaggle.com/datasets/shivamb/fashion-clothing-products-catalog](https://www.kaggle.com/datasets/shivamb/fashion-clothing-products-catalog)
